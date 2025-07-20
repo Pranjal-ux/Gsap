@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   box-sizing: border-box;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://imgs.search.brave.com/znD2oBCKeP-vq8Bogbe70Yq9ualjKxWSw-kjlP6r9o0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vcGljanVt/Ym8uY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy9zaWxob3VldHRl/LW9mLXlvdW5nLWJs/b25kZS13aXRoLXNo/b3J0LWhhaXItb24t/b3JhbmdlLWJhY2tn/cm91bmQtZnJlZS1p/bWFnZS5qcGVnP2g9/ODAwJnF1YWxpdHk9/ODA");
+    background-size: cover;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    color: rgb(116, 116, 5)
+}
+nav h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+nav i{
+    font-size: 30px;
+    font-weight: 1000;
+    cursor: pointer;
+
+}
+.full{
+    position: absolute;
+    background-color:rgba(112, 128, 144, 0.486);
+    height: 100%;
+    width: 30%;
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(20px);
+    padding: 40px 50px;
+}
+.full h4{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.full i{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: transparent;
+    padding: 2px;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
